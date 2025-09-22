@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gaming Website</title>
     <link rel="stylesheet" href="style.css">
+
+    <link href='https://cdn.boxicons.com/fonts/brands/boxicons-brands.min.css' rel='stylesheet'>
 </head>
 <body>
     <div class="container">
@@ -22,7 +24,7 @@
                 <p><a href="#">CONTACT</a></p>
             </div>
         </header>
-        <section class="hero-section">
+        <section class="hero-section autoBlur">
             <div class="hero-vid">
                 <video loop autoplay muted plays-inline class="hero-video">
                     <source src="res/hero-1.mp4" type="video/mp4">
@@ -41,9 +43,13 @@
 
         <section class="about-section">
             <p>Welcome to Zentry</p>
-            <h1>DISCOVER THE WORLD'S LARGEST SHARED ADVENTURE</h1>
+            <div class="autoBlur">
+                <h1>DISCOVER THE WORLD'S LARGEST SHARED ADVENTURE</h1>
+            </div>
 
-            <div class="image-box">
+            <img class="stones-img" src="res/stones.png" alt="stones-image">
+
+            <div class="image-box autoTakeFull">
                 <img src="res/about.webp" alt="about-img">
             </div>
             <h4>Game of Games begins-your life, now an epic MMORPG</h4>
@@ -55,7 +61,7 @@
             <p> cross-platfrom metagame app, turning your activities across Web2 and Web3 games into a rewarding adventure</p>
 
             <div class="info-cards">
-                <div class="card">
+                <div class="card autoDisplay">
                     <h1>RADIANT</h1>
                     <p>An anime and gaming-inspired NFT collection - the IP primed for expansion.</p>
 
@@ -63,7 +69,7 @@
                     <button>COMING SOON</button>
                 </div>
 
-                <div class="card">
+                <div class="card autoDisplay">
                     <h1>ZIGMA</h1>
                     <p>A cross-platform metgame pp, turning your activities across Web2 and Web3 games into a rewarding adventure.</p>
 
@@ -71,7 +77,7 @@
                     <button>COMING SOON</button>
                 </div>
 
-                <div class="card">
+                <div class="card autoDisplay">
                     <h1>NEXUS</h1>
                     <p>A gamified social hub, adding a new dimension of play to social interaction for Web3 communities.</p>
 
@@ -79,7 +85,7 @@
                     <button>COMING SOON</button>
                 </div>
 
-                <div class="card">
+                <div class="card autoDisplay">
                     <h1>AZUL</h1>
                     <p>A cross-world AI Agent elevating your gameplay to be mor fun and productive</p>
 
@@ -87,14 +93,36 @@
                     <button>COMING SOON</button>
                 </div>
 
-                <div class="card">
+                <div class="card autoDisplay">
                     <video src="res/feature-5.mp4" autoplay loop muted plays-inline></video>
                 </div>
 
-                <div class="card">
+                <div class="card autoDisplay">
                     <h1>MORE COMING SOON</h1>
                 </div>
             </div>
+        </section>
+
+        <section class="contact-section">
+            <p>Join Zentry</p>
+            <div class="autoBlur">
+                <h1>LET'S BUILD THE NEW ERA OF GAMING TOGETHER</h1>
+            </div>
+            <button>CONTACT US</button>
+            <img class="img1" src="res/swordman.webp" alt="contact-img">
+            <img class="img2" src="res/contact-1.webp" alt="contact-img">
+            <img class="img3" src="res/contact-2.webp" alt="contact-img">
+        </section>
+
+        <section class="footer">
+            <p>@Niloy 2025. All rights reserved</p>
+            <ul>
+                <li><a href="#"><i class='bxl  bx-youtube'  ></i> </a></li>
+                <li><a href="#"><i class='bxl  bx-instagram'  ></i> </a></li>
+                <li><a href="#"><i class='bxl  bx-github'  ></i> </a></li>
+                <li><a href="#"><i class='bxl  bx-linkedin'  ></i> </a></li>
+            </ul>
+            <p>Privacy Policy</p>
         </section>
     </div>
     
